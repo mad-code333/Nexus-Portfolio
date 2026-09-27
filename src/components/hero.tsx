@@ -1,4 +1,7 @@
+import "@fontsource/quantico/400-italic.css";
+import "@fontsource/quantico/700.css";
 import { SiteHeader } from "./site-header";
+import { NexusSpellMark } from "./nexus-spell-mark";
 
 export function Hero() {
   return (
@@ -15,29 +18,57 @@ export function Hero() {
       />
       <div className="pointer-events-none absolute inset-0 bg-black/40" />
       <div className="pointer-events-none absolute inset-x-0 bottom-0 h-32 bg-gradient-to-b from-transparent to-[var(--page)]" />
+
       <div className="relative z-10 flex h-full flex-col">
         <SiteHeader overlay />
-        <div className="mx-auto flex w-full max-w-[1120px] flex-1 items-center px-6 pb-16">
-          <div className="max-w-xl">
-            <h1 className="font-serif text-[clamp(2.6rem,5vw,4.15rem)] font-medium leading-[1.05] tracking-[-0.025em] text-[#f8e6cf]">
-              Senior software
-              <br />
-              engineer
-            </h1>
-            <p className="mt-5 flex items-center gap-2 text-[11px] font-semibold tracking-[0.2em] text-[#f8e6cf]/85">
-              <span className="h-1.5 w-1.5 rounded-full bg-[#e6a23c]" />
-              CODE + AI
-            </p>
+        <div className="mx-auto flex w-full max-w-[1120px] flex-1 flex-col items-center justify-center px-4 pb-16 text-center">
+          <p
+            className="mb-2 font-[Quantico,sans-serif] text-sm tracking-[0.18em] text-white uppercase italic sm:text-base"
+            style={{ animation: "fadeInUp 0.8s ease-out both", animationDelay: "0.2s" }}
+          >
+            Welcome to
+          </p>
+
+          <div
+            className="relative flex w-full max-w-[600px] items-center justify-center"
+            style={{ animation: "fadeInUp 0.8s ease-out both", animationDelay: "0.5s" }}
+          >
+            <NexusSpellMark
+              decorative
+              className="pointer-events-none absolute w-[115%] text-[#2a2a2a]"
+            />
+            <NexusSpellMark className="relative z-10 w-[80%] text-[#edaf5f]" />
+          </div>
+
+          <h1
+            className="mt-6 font-serif text-[clamp(1.85rem,4vw,2.85rem)] font-medium leading-[1.1] tracking-[-0.02em] text-[#f8e6cf]"
+            style={{ animation: "fadeInUp 0.8s ease-out both", animationDelay: "0.65s" }}
+          >
+            Senior Software Engineer
+          </h1>
+
+          <p
+            className="mt-4 max-w-xl font-[Quantico,sans-serif] text-xs tracking-[0.16em] text-white/85 uppercase italic sm:text-sm"
+            style={{ animation: "fadeInUp 0.8s ease-out both", animationDelay: "0.8s" }}
+          >
+            The home of <span className="text-[#edaf5f]">code + AI</span>
+          </p>
+
+          <div
+            className="mt-8 flex flex-col items-center gap-3 sm:flex-row"
+            style={{ animation: "fadeInUp 0.8s ease-out both", animationDelay: "1s" }}
+          >
             <a
               href="#projects"
-              className="mt-6 inline-flex items-center gap-3 text-sm text-[#f8e6cf] transition hover:text-white"
+              className="inline-flex items-center gap-2 rounded-sm border border-white/35 px-5 py-2.5 text-xs font-semibold tracking-[0.14em] text-white uppercase transition hover:border-[#edaf5f] hover:text-[#edaf5f] sm:text-sm"
             >
-              <span className="grid h-8 w-8 place-items-center rounded-full bg-[#e6a23c] shadow-[0_8px_20px_rgba(230,162,60,0.4)]">
-                <svg width="10" height="12" viewBox="0 0 10 12" aria-hidden>
-                  <path d="M0 0.8 9.2 6 0 11.2Z" fill="white" />
-                </svg>
-              </span>
-              View my work
+              Projects
+            </a>
+            <a
+              href="/skills"
+              className="inline-flex items-center gap-2 rounded-sm border border-white/35 px-5 py-2.5 text-xs font-semibold tracking-[0.14em] text-white uppercase transition hover:border-[#edaf5f] hover:text-[#edaf5f] sm:text-sm"
+            >
+              Skills
             </a>
           </div>
         </div>
