@@ -76,6 +76,37 @@ body {
   }
 }
 
+.feature-reel {
+  overflow: hidden;
+}
+
+.feature-track {
+  animation: feature-slide 36s linear infinite;
+}
+
+.feature-reel:hover .feature-track {
+  animation-play-state: paused;
+}
+
+@keyframes feature-slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .feature-reel {
+    overflow-x: auto;
+  }
+
+  .feature-track {
+    animation: none;
+  }
+}
+
 .tag {
   border: 1px solid var(--line);
   border-radius: 999px;

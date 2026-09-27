@@ -2,51 +2,42 @@ import Image from "next/image";
 import { featuredProjects, isExternalProjectLink, projectImage } from "@/data/portfolio";
 
 export function FeaturedProjects() {
+  const reel = [...featuredProjects, ...featuredProjects];
+
   return (
-    <section id="projects" className="mx-auto w-full max-w-[1120px] px-6 py-16 md:py-20">
-      <h2 className="font-serif text-[2rem] font-medium leading-tight tracking-[-0.02em] text-cream md:text-[2.35rem]">
-        Featured Projects
-      </h2>
-      <p className="mt-2 max-w-xl text-sm text-muted">
-        Explore our portfolio of innovative solutions and successful implementations.
-      </p>
-      <div className="mt-8 grid gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3">
-        {featuredProjects.map((project) => {
-          const external = isExternalProjectLink(project.link);
-          return (
-            <article key={project.id}>
+    <section id="projects" className="overflow-hidden py-16 md:py-20">
+      <div className="mx-auto w-full max-w-[1120px] px-6">
+        <h2 className="font-serif text-[2rem] font-medium leading-tight tracking-[-0.02em] text-cream md:text-[2.35rem]">
+          Featured Projects
+        </h2>
+        <p className="mt-2 max-w-xl text-sm text-muted">
+          Explore our portfolio of innovative solutions and successful implementations.
+        </p>
+      </div>
+      <div className="feature-reel mt-10">
+        <div className="feature-track flex w-max gap-5 md:gap-6">
+          {reel.map((project, index) => {
+            const external = isExternalProjectLink(project.link);
+            return (
               <a
+                key={`${project.id}-${index}`}
                 href={project.link}
                 target={external ? "_blank" : undefined}
                 rel={external ? "noopener noreferrer" : undefined}
-                className="group block"
+                aria-label={project.title}
+                className="relative block h-[240px] w-[82vw] shrink-0 overflow-hidden rounded-2xl bg-black/20 sm:h-[340px] sm:w-[560px] lg:h-[440px] lg:w-[760px]"
               >
-                <div className="relative aspect-[16/10] overflow-hidden rounded-xl bg-black/20">
-                  <Image
-                    src={projectImage(project)}
-                    alt={project.title}
-                    fill
-                    sizes="(max-width: 768px) 100vw, 33vw"
-                    className="object-cover transition duration-500 group-hover:scale-[1.03]"
-                  />
-                </div>
-                <h3 className="mt-4 text-[15px] font-semibold text-cream">{project.title}</h3>
-                <p className="mt-1 text-[13px] leading-relaxed text-muted">{project.description}</p>
-                <ul className="mt-3 flex flex-wrap gap-1.5">
-                  {project.technologies.map((tag) => (
-                    <li key={tag} className="tag">
-                      {tag}
-                    </li>
-                  ))}
-                </ul>
-                <span className="mt-3 inline-flex items-center gap-1 text-[13px] text-cream/90 transition group-hover:text-[#d86555]">
-                  View project
-                  <span aria-hidden>→</span>
-                </span>
+                <Image
+                  src={projectImage(project)}
+                  alt=""
+                  fill
+                  sizes="(max-width: 640px) 82vw, 760px"
+                  className="object-cover"
+                />
               </a>
-            </article>
-          );
-        })}
+            );
+          })}
+        </div>
       </div>
     </section>
   );
