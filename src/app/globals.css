@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+:root {
+  --page: #1f1a1e;
+  --cream: #f8e6cf;
+  --muted: #968f89;
+  --line: rgba(248, 230, 207, 0.16);
+  --card: #262226;
+  --coral: #d86555;
+  --teal: #3ad1b0;
+  --rose: #dc6564;
+  --rose-ink: #3d2422;
+  --teal-card: #14685e;
+  --header: rgba(31, 26, 30, 0.86);
+}
+
+html[data-theme="light"] {
+  --page: #f6f1ea;
+  --cream: #241c18;
+  --muted: #5e5852;
+  --line: rgba(36, 28, 24, 0.12);
+  --card: #fffcf8;
+  --header: rgba(246, 241, 234, 0.9);
+}
+
+@theme inline {
+  --font-sans: "Manrope Variable", "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Fraunces Variable", "Fraunces", ui-serif, Georgia, serif;
+  --color-page: var(--page);
+  --color-cream: var(--cream);
+  --color-muted: var(--muted);
+  --color-coral: var(--coral);
+  --color-teal: var(--teal);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--page);
+  color: var(--cream);
+  font-family: "Manrope Variable", "Manrope", ui-sans-serif, system-ui, sans-serif;
+}
+
+::selection {
+  background: #d86555;
+  color: #fff;
+}
+
+.hero-tone {
+  --cream: #f8e6cf;
+  --muted: #cbbdaa;
+  --line: rgba(248, 230, 207, 0.18);
+  color: #f8e6cf;
+}
+
+.ship-drift {
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .ship-drift {
+    animation: drift 8s ease-in-out infinite;
+  }
+}
+
+@keyframes drift {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-12px);
+  }
+}
+
+.tag {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.15rem 0.6rem;
+  font-size: 11px;
+  line-height: 1.4;
+  color: color-mix(in srgb, var(--cream) 82%, transparent);
+}

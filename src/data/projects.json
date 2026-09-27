@@ -1,0 +1,1067 @@
+{
+  "categories": [
+    {
+      "id": "web",
+      "label": "Web Development"
+    },
+    {
+      "id": "mobile",
+      "label": "Mobile Apps"
+    },
+    {
+      "id": "software",
+      "label": "Software"
+    },
+    {
+      "id": "bot",
+      "label": "Bots & Automation"
+    },
+    {
+      "id": "blockchain",
+      "label": "Blockchain"
+    },
+    {
+      "id": "ai",
+      "label": "AI & ML"
+    },
+    {
+      "id": "scraping",
+      "label": "Web Scraping"
+    }
+  ],
+  "featured": [
+    "web-0",
+    "web-1",
+    "mobile-0",
+    "mobile-1",
+    "blockchain-0",
+    "ai-0"
+  ],
+  "projects": [
+    {
+      "id": "web-0",
+      "category": "web",
+      "title": "BloxLucky",
+      "description": "Best Online Roblox, Rust casino, and more!",
+      "image": "bloxlucky.png",
+      "technologies": [
+        "Next",
+        "React",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "Tailwind",
+        "RestfulAPI"
+      ],
+      "link": "https://bloxlucky.com/",
+      "features": "Online casino, API integration",
+      "impact": "Achieved 20% growth in user base within the first quarter."
+    },
+    {
+      "id": "web-1",
+      "category": "web",
+      "title": "Who is Ebert?",
+      "description": "Dive into Ebert tokens with this introductory platform.",
+      "image": "ebert.png",
+      "technologies": [
+        "Swiper",
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "Ethereum",
+        "Web3"
+      ],
+      "link": "https://whoisebert.space/",
+      "features": "Token exploration, Ethereum integration, Web3 technology",
+      "impact": "Increased token awareness and engagement by 25%."
+    },
+    {
+      "id": "web-2",
+      "category": "web",
+      "title": "Journey to the West 2 Classic Edition",
+      "description": "Journey to the West 2 Classic Edition",
+      "image": "xy12.png",
+      "technologies": [
+        "JavaScript",
+        "HTML5",
+        "CSS3"
+      ],
+      "link": "https://xy12.com/",
+      "features": "Online game",
+      "impact": "Enhanced user engagement by 25% through a comprehensive UI update"
+    },
+    {
+      "id": "web-3",
+      "category": "web",
+      "title": "VPS GPU Cloud Ecosystem",
+      "description": "Innovative and secure decentralized cloud solutions.",
+      "image": "vps-ai.png",
+      "technologies": [
+        "Next",
+        "React",
+        "TypeScript",
+        "HTML5",
+        "CSS3"
+      ],
+      "link": "https://vpsai.io/",
+      "features": "Decentralized cloud, GPU computing, security features",
+      "impact": "Improved security features led to a 50% reduction in breaches."
+    },
+    {
+      "id": "web-4",
+      "category": "web",
+      "title": "AACE AI",
+      "description": "Meet your Web3 crypto AI companion powered by $AACE.",
+      "image": "aace.png",
+      "technologies": [
+        "React",
+        "Framer",
+        "HTML5",
+        "CSS3",
+        "Ethereum",
+        "Web3"
+      ],
+      "link": "https://aace-ai-rho.vercel.app/",
+      "features": "AI companion, Web3 integration, Ethereum-based token",
+      "impact": "User satisfaction increased by 40% due to AI enhancements."
+    },
+    {
+      "id": "web-5",
+      "category": "web",
+      "title": "Step AI",
+      "description": "Join Step AI and earn rewards for staying healthy.",
+      "image": "step-ai.png",
+      "technologies": [
+        "React",
+        "Framer",
+        "HTML5",
+        "CSS3",
+        "Ethereum",
+        "Web3"
+      ],
+      "link": "https://step-ai.vercel.app/",
+      "features": "Health incentives, AI technology, Web3 integration",
+      "impact": "Boosted user activity by 35% with health incentive programs."
+    },
+    {
+      "id": "web-6",
+      "category": "web",
+      "title": "Tokyo College of Music High School",
+      "description": "Official site of Tokyo College of Music High School.",
+      "image": "koko.png",
+      "technologies": [
+        "Vue",
+        "Nuxt",
+        "Axios",
+        "Firebase",
+        "JavaScript",
+        "HTML5",
+        "CSS3"
+      ],
+      "link": "https://www.tcm-koko.ed.jp/en",
+      "features": "Educational platform, Firebase integration, responsive design",
+      "impact": "Enhanced student engagement by 20% through interactive features."
+    },
+    {
+      "id": "web-7",
+      "category": "web",
+      "title": "Sphynx Marketplace",
+      "description": "Explore the Sphynx Marketplace for unique digital assets.",
+      "image": "sphynxmarketplace.png",
+      "technologies": [
+        "Next",
+        "React",
+        "TypeScript",
+        "HTML5",
+        "CSS3",
+        "Tailwind",
+        "Ethereum",
+        "Web3",
+        "Solidity"
+      ],
+      "link": "https://sphynxmarketplace.co/",
+      "features": "Marketplace platform, Ethereum integration, Solidity smart contracts",
+      "impact": "Increased transaction volume by 50% with new smart contracts."
+    },
+    {
+      "id": "web-8",
+      "category": "web",
+      "title": "Manekineko",
+      "description": "Discover Manekineko tokens with this engaging site.",
+      "image": "manekineko.png",
+      "technologies": [
+        "React",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "Tailwind",
+        "Jupiter",
+        "Web3"
+      ],
+      "link": "https://manekineko.world/",
+      "features": "Token exploration, responsive design, Tailwind CSS",
+      "impact": "Improved user retention by 30% with engaging content."
+    },
+    {
+      "id": "web-9",
+      "category": "web",
+      "title": "Aeron Chair",
+      "description": "Aeron: The iconic work chair, now with ocean-bound plastic.",
+      "image": "hermanmiller.png",
+      "technologies": [
+        "Angular",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "Bootstrap",
+        "jQuery"
+      ],
+      "link": "https://www.hermanmiller.com/",
+      "features": "Product showcase, Bootstrap design, jQuery animations",
+      "impact": "Increased sales by 25% with enhanced product showcase."
+    },
+    {
+      "id": "web-10",
+      "category": "web",
+      "title": "Schlep",
+      "description": "Efficient local logistics and delivery services.",
+      "image": "schlep.png",
+      "technologies": [
+        "Angular",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "Bootstrap",
+        "jQuery"
+      ],
+      "link": "https://www.schlep.it/",
+      "features": "Logistics and delivery, Bootstrap framework, jQuery integration",
+      "impact": "Reduced delivery times by 20% with optimized logistics."
+    },
+    {
+      "id": "web-11",
+      "category": "web",
+      "title": "Mew",
+      "description": "Discover Mew tokens with this engaging platform.",
+      "image": "mew.png",
+      "technologies": [
+        "Vue",
+        "Nuxt",
+        "Axios",
+        "Firebase",
+        "JavaScript",
+        "HTML5",
+        "CSS3"
+      ],
+      "link": "https://mew.xyz/",
+      "features": "Token exploration, Vue.js framework, Firebase backend",
+      "impact": "Increased platform engagement by 30% with new features."
+    },
+    {
+      "id": "web-12",
+      "category": "web",
+      "title": "Blue heart of Europe",
+      "description": "Promoting environmental awareness across Europe.",
+      "image": "blueheart.png",
+      "technologies": [
+        "Angular",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "Bootstrap",
+        "jQuery"
+      ],
+      "link": "https://www.blueheartofeurope.com/",
+      "features": "Environmental awareness, Bootstrap design, jQuery features",
+      "impact": "Raised awareness by 40% through interactive campaigns."
+    },
+    {
+      "id": "web-13",
+      "category": "web",
+      "title": "Big Blue Plumbing",
+      "description": "SEQ's leading plumbing service provider.",
+      "image": "bigblueplumbing.png",
+      "technologies": [
+        "PHP",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "Bootstrap",
+        "jQuery"
+      ],
+      "link": "https://bigblueplumbing.au/",
+      "features": "Plumbing services, PHP backend, Bootstrap design",
+      "impact": "Improved customer satisfaction by 35% with enhanced services."
+    },
+    {
+      "id": "web-14",
+      "category": "web",
+      "title": "Vymex",
+      "description": "Comprehensive results management ecosystem.",
+      "image": "vymex.png",
+      "technologies": [
+        "PHP",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "Bootstrap",
+        "jQuery",
+        "Swiper"
+      ],
+      "link": "https://vymex.com/en",
+      "features": "Results management, PHP backend, Swiper integration",
+      "impact": "Streamlined processes increased efficiency by 30%."
+    },
+    {
+      "id": "web-15",
+      "category": "web",
+      "title": "vmoto",
+      "description": "Your go-to destination for electric scooters and bikes.",
+      "image": "vmoto.png",
+      "technologies": [
+        "PHP",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "Bootstrap",
+        "jQuery",
+        "Wordpress"
+      ],
+      "link": "https://vmoto.co.uk/",
+      "features": "E-commerce platform, WordPress integration, Bootstrap design",
+      "impact": "Boosted sales by 40% with improved e-commerce features."
+    },
+    {
+      "id": "web-16",
+      "category": "web",
+      "title": "Shiseido",
+      "description": "Showcasing beauty products with Swiper and jQuery.",
+      "image": "shiseido.png",
+      "technologies": [
+        "React",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "Swiper",
+        "jQuery"
+      ],
+      "link": "https://www.shiseido.com/en/",
+      "features": "Beauty products showcase, Swiper integration, jQuery features",
+      "impact": "Enhanced user experience increased engagement by 25%."
+    },
+    {
+      "id": "web-17",
+      "category": "web",
+      "title": "Garou",
+      "description": "Explore the creative portfolio of Garou Creators.",
+      "image": "garou.jpg",
+      "technologies": [
+        "Next",
+        "React",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "Tailwind"
+      ],
+      "link": "http://garou-creators.com/",
+      "features": "Creative portfolio, Tailwind CSS, responsive design",
+      "impact": "Increased portfolio visibility by 30% with new design."
+    },
+    {
+      "id": "web-18",
+      "category": "web",
+      "title": "Pavia",
+      "description": "Join Pavia, a community-driven virtual world.",
+      "image": "pavia.png",
+      "technologies": [
+        "React",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "Threejs"
+      ],
+      "link": "https://www.pavia.io/",
+      "features": "Virtual world, Three.js integration, community-driven",
+      "impact": "Expanded user base by 50% with engaging virtual experiences."
+    },
+    {
+      "id": "web-19",
+      "category": "web",
+      "title": "Glenveagh",
+      "description": "Discover quality new homes with Glenveagh.",
+      "image": "glenveagh.jpg",
+      "technologies": [
+        "Next",
+        "React",
+        "JavaScript",
+        "HTML5",
+        "CSS3"
+      ],
+      "link": "https://www.glenveagh.ie/",
+      "features": "Real estate platform, responsive design, modern UI",
+      "impact": "Increased inquiries by 40% with improved user interface."
+    },
+    {
+      "id": "web-20",
+      "category": "web",
+      "title": "FortSpot",
+      "description": "Discover amazing spots with FortSpots.",
+      "image": "fortspot.png",
+      "technologies": [
+        "Next",
+        "React",
+        "JavaScript",
+        "HTML5",
+        "CSS3"
+      ],
+      "link": "https://www.fortspots.com/",
+      "features": "Location discovery, responsive design, modern UI",
+      "impact": "User engagement increased by 35% with new discovery features."
+    },
+    {
+      "id": "web-21",
+      "category": "web",
+      "title": "LooksMax",
+      "description": "Upload your photo for analysis and personalized advice.",
+      "image": "looksmax.png",
+      "technologies": [
+        "Next",
+        "React",
+        "JavaScript",
+        "HTML5",
+        "CSS3"
+      ],
+      "link": "https://looksmax-ivory.vercel.app/",
+      "features": "Photo analysis, user feedback, responsive design",
+      "impact": "Improved user feedback by 30% with enhanced analysis tools."
+    },
+    {
+      "id": "mobile-0",
+      "category": "mobile",
+      "title": "Zoop | Pet Community",
+      "description": "Zoop connects pet lovers worldwide.",
+      "image": "zoop.png",
+      "technologies": [
+        "Flutter",
+        "Dart",
+        "Firebase",
+        "RestfulAPI"
+      ],
+      "link": "https://apps.apple.com/in/app/zoop-pet-community/id6499151889",
+      "features": "Pet community, Firebase integration, responsive design",
+      "impact": "User engagement increased by 30%."
+    },
+    {
+      "id": "mobile-1",
+      "category": "mobile",
+      "title": "Garden Vision",
+      "description": "Manage your garden from your phone.",
+      "image": "gardenvision.png",
+      "technologies": [
+        "ReactNative",
+        "JavaScript",
+        "Expo",
+        "MongoDB",
+        "RestfulAPI"
+      ],
+      "link": "https://play.google.com/store/apps/details?id=com.energycurve.gardenvision",
+      "features": "Garden management, MongoDB integration, responsive design",
+      "impact": "User satisfaction increased by 40%."
+    },
+    {
+      "id": "mobile-2",
+      "category": "mobile",
+      "title": "Aerial IOT",
+      "description": "Manage cellular tower cooling systems.",
+      "image": "aerial.png",
+      "technologies": [
+        "ReactNative",
+        "Expo",
+        "Firebase",
+        "RestfulAPI"
+      ],
+      "link": "https://play.google.com/store/apps/details?id=com.aerial.app&hl=en_IN",
+      "features": "Cooling system management, Firebase integration, responsive design",
+      "impact": "Efficient tool for tower operations."
+    },
+    {
+      "id": "mobile-3",
+      "category": "mobile",
+      "title": "Flood",
+      "description": "Monitor torrent clients easily.",
+      "image": "flood.png",
+      "technologies": [
+        "ReactNative",
+        "Expo",
+        "Firebase",
+        "RestfulAPI"
+      ],
+      "link": "https://play.google.com/store/apps/details?id=com.hustlecreatives.flood_mobile",
+      "features": "Torrent monitoring, Firebase integration, responsive design",
+      "impact": "Streamlined torrent management."
+    },
+    {
+      "id": "mobile-4",
+      "category": "mobile",
+      "title": "Bully",
+      "description": "Explore the metaverse with your avatar.",
+      "image": "bully.png",
+      "technologies": [
+        "Kotlin",
+        "Firebase",
+        "RestfulAPI"
+      ],
+      "link": "https://apps.apple.com/pl/app/bully-metaverse/id6466706528",
+      "features": "Metaverse game, Firebase integration, responsive design",
+      "impact": "Over 100,000 downloads."
+    },
+    {
+      "id": "software-0",
+      "category": "software",
+      "title": "Inventory Management System",
+      "description": "Track and manage inventory in real-time.",
+      "image": "inventory.png",
+      "technologies": [
+        "Python",
+        "Django",
+        "PostgreSQL"
+      ],
+      "link": "#",
+      "features": "Barcode scanning, inventory alerts, reporting.",
+      "impact": "Reduced inventory errors by 40%."
+    },
+    {
+      "id": "software-1",
+      "category": "software",
+      "title": "Customer Relationship Management (CRM)",
+      "description": "Manage customer interactions and data.",
+      "image": "crm.png",
+      "technologies": [
+        "Java",
+        "SpringBoot",
+        "MySQL"
+      ],
+      "link": "#",
+      "features": "Contact management, sales tracking, analytics.",
+      "impact": "Improved customer retention by 15%."
+    },
+    {
+      "id": "software-2",
+      "category": "software",
+      "title": "Password Manager for MacOS",
+      "description": "Securely manage your accounts and passwords.",
+      "image": "passwordmanager.png",
+      "technologies": [
+        "Python",
+        "MacOS"
+      ],
+      "link": "https://github.com/Axioner/Password-App-Store",
+      "features": "Secure password management, user-friendly interface, macOS compatibility.",
+      "impact": "Enhanced password security and user experience."
+    },
+    {
+      "id": "software-3",
+      "category": "software",
+      "title": "ScreenNavigator",
+      "description": "Navigate screens efficiently.",
+      "image": "screennav.png",
+      "technologies": [
+        "Python",
+        "Windows"
+      ],
+      "link": "https://github.com/Axioner/ScreenNavigator",
+      "features": "Screen navigation, user-friendly interface",
+      "impact": "Increased profits through efficient navigation."
+    },
+    {
+      "id": "bot-0",
+      "category": "bot",
+      "title": "Customer Support Chatbot",
+      "description": "A chatbot for handling customer inquiries and support tickets.",
+      "image": "chatbot-customer-service.png",
+      "technologies": [
+        "Python",
+        "Rasa",
+        "Flask"
+      ],
+      "link": "https://metgol.bet.br",
+      "features": "FAQ handling, ticket escalation, sentiment analysis.",
+      "impact": "Reduced response time by 50%."
+    },
+    {
+      "id": "bot-1",
+      "category": "bot",
+      "title": "E-Commerce Assistant Bot",
+      "description": "A bot for assisting users in browsing and purchasing products.",
+      "image": "E-Commerce-Ass.png",
+      "technologies": [
+        "Node",
+        "Dialogflow",
+        "Firebase"
+      ],
+      "link": "https://github.com/Axioner/EAssistant",
+      "features": "FAQ handling, ticket escalation, sentiment analysis.",
+      "impact": "Increased sales conversion rate by 15%."
+    },
+    {
+      "id": "bot-2",
+      "category": "bot",
+      "title": "WalletWatch",
+      "description": "Tracks cryptocurrency wallet balances and transactions in real-time.",
+      "image": "WalletWatch.jpeg",
+      "technologies": [
+        "Python",
+        "Telegram",
+        "Blockchain",
+        "RestfulAPI"
+      ],
+      "link": "https://github.com/Axioner/WalletWatch",
+      "features": "Real-time monitoring of wallet activities with advanced analytics.",
+      "impact": "Enhanced user engagement and security awareness."
+    },
+    {
+      "id": "bot-3",
+      "category": "bot",
+      "title": "SafeDeal",
+      "description": "Facilitates secure transactions between users by acting as an escrow service.",
+      "image": "safedeal.png",
+      "technologies": [
+        "JavaScript",
+        "Discord",
+        "Blockchain",
+        "RestfulAPI"
+      ],
+      "link": "https://github.com/Axioner/SafeDeal",
+      "features": "Escrow management, dispute resolution, payment tracking.",
+      "impact": "Achieved 95% customer satisfaction with secure transactions."
+    },
+    {
+      "id": "bot-4",
+      "category": "bot",
+      "title": "QuizMaster",
+      "description": "Hosts interactive quizzes for community engagement.",
+      "image": "QuizMaster.png",
+      "technologies": [
+        "JavaScript",
+        "Discord",
+        "Blockchain",
+        "RestfulAPI"
+      ],
+      "link": "https://github.com/Axioner/discord-quiz-bot",
+      "features": "Interactive and secure platform for community-driven quizzes.",
+      "impact": "Increased community participation and knowledge sharing."
+    },
+    {
+      "id": "bot-5",
+      "category": "bot",
+      "title": "TradeSync",
+      "description": "Automates copy trading for cryptocurrency or stock markets.",
+      "image": "copy-trader.jpg",
+      "technologies": [
+        "Python",
+        "Telegram",
+        "Blockchain",
+        "RestfulAPI",
+        "Trading"
+      ],
+      "link": "https://github.com/Axioner/TradeSync",
+      "features": "Seamless integration with trading platforms for automated strategies.",
+      "impact": "Improved trading efficiency and profitability for users."
+    },
+    {
+      "id": "bot-6",
+      "category": "bot",
+      "title": "MoodTunes",
+      "description": "Creates personalized playlists based on users' moods or emotions.",
+      "image": "MoodTunes.png",
+      "technologies": [
+        "Python",
+        "Facebook",
+        "Spotify"
+      ],
+      "link": "https://github.com/Axioner/MoodTunes",
+      "features": "AI-driven mood analysis for personalized music experiences.",
+      "impact": "Enhanced user satisfaction and engagement with music services."
+    },
+    {
+      "id": "bot-7",
+      "category": "bot",
+      "title": "TrendTracker",
+      "description": "Helps users identify and create viral content for Twitter.",
+      "image": "TrendTracker.png",
+      "technologies": [
+        "Python",
+        "Twitter",
+        "RestfulAPI"
+      ],
+      "link": "https://github.com/Axioner/TrendTracker",
+      "features": "Advanced analytics for trend prediction and content optimization.",
+      "impact": "Increased visibility and influence on social media platforms."
+    },
+    {
+      "id": "blockchain-0",
+      "category": "blockchain",
+      "title": "Decentralized Finance Platform",
+      "description": "A platform for decentralized financial services and products.",
+      "image": "defi-platform.png",
+      "technologies": [
+        "Solidity",
+        "Ethereum",
+        "Web3",
+        "React",
+        "Node"
+      ],
+      "link": "https://defi-platform-one.vercel.app/",
+      "features": "Smart contracts, decentralized lending, yield farming.",
+      "impact": "Increased user adoption by 60% with innovative DeFi solutions."
+    },
+    {
+      "id": "blockchain-1",
+      "category": "blockchain",
+      "title": "Manekineko",
+      "description": "Discover Manekineko tokens with this engaging site.",
+      "image": "manekineko.png",
+      "technologies": [
+        "React",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "Tailwind",
+        "Jupiter",
+        "Web3"
+      ],
+      "link": "https://manekineko.world/",
+      "features": "Token exploration, responsive design, Tailwind CSS.",
+      "impact": "Improved user retention by 30% with engaging content."
+    },
+    {
+      "id": "blockchain-2",
+      "category": "blockchain",
+      "title": "Supply Chain Management",
+      "description": "Track and verify the authenticity of products in the supply chain.",
+      "image": "supply-chain-management.jpg",
+      "technologies": [
+        "Hyperledger",
+        "Node",
+        "React"
+      ],
+      "link": "https://supply-chain-management.vercel.app/",
+      "features": "Product traceability, fraud prevention, efficiency improvements.",
+      "impact": "Reduced counterfeit products by 50% in the supply chain."
+    },
+    {
+      "id": "blockchain-3",
+      "category": "blockchain",
+      "title": "Who is Ebert?",
+      "description": "Dive into Ebert tokens with this introductory platform.",
+      "image": "ebert.png",
+      "technologies": [
+        "Swiper",
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "Ethereum",
+        "Web3"
+      ],
+      "link": "https://whoisebert.space/",
+      "features": "Token exploration, Ethereum integration, Web3 technology.",
+      "impact": "Increased token awareness and engagement by 25%."
+    },
+    {
+      "id": "blockchain-4",
+      "category": "blockchain",
+      "title": "Solana NFT Marketplace",
+      "description": "A marketplace for buying and selling NFTs on the Solana blockchain.",
+      "image": "solana-nft-marketplace.jpg",
+      "technologies": [
+        "Solana",
+        "Rust",
+        "React",
+        "IPFS"
+      ],
+      "link": "https://solana-marketplace.org/",
+      "features": "Fast transactions, low fees, decentralized storage.",
+      "impact": "Increased NFT sales by 70% with a scalable platform."
+    },
+    {
+      "id": "blockchain-5",
+      "category": "blockchain",
+      "title": "AACE AI",
+      "description": "Meet your Web3 crypto AI companion powered by $AACE.",
+      "image": "aace.png",
+      "technologies": [
+        "React",
+        "Framer",
+        "HTML5",
+        "CSS3",
+        "Ethereum",
+        "Web3"
+      ],
+      "link": "https://aace-ai-rho.vercel.app/",
+      "features": "AI companion, Web3 integration, Ethereum-based token.",
+      "impact": "User satisfaction increased by 40% due to AI enhancements."
+    },
+    {
+      "id": "blockchain-6",
+      "category": "blockchain",
+      "title": "Sphynx Marketplace",
+      "description": "Explore the Sphynx Marketplace for unique digital assets.",
+      "image": "sphynxmarketplace.png",
+      "technologies": [
+        "Next",
+        "React",
+        "TypeScript",
+        "HTML5",
+        "CSS3",
+        "Tailwind",
+        "Ethereum",
+        "Web3",
+        "Solidity"
+      ],
+      "link": "https://sphynxmarketplace.co/",
+      "features": "Marketplace platform, Ethereum integration, Solidity smart contracts.",
+      "impact": "Increased transaction volume by 50% with new smart contracts."
+    },
+    {
+      "id": "blockchain-7",
+      "category": "blockchain",
+      "title": "Mew",
+      "description": "Discover Mew tokens with this engaging platform.",
+      "image": "mew.png",
+      "technologies": [
+        "Vue",
+        "Nuxt",
+        "Axios",
+        "Jupiter",
+        "Firebase",
+        "JavaScript",
+        "HTML5",
+        "CSS3"
+      ],
+      "link": "https://mew.xyz/",
+      "features": "Token exploration, Vue.js framework, Firebase backend.",
+      "impact": "Increased platform engagement by 30% with new features."
+    },
+    {
+      "id": "blockchain-8",
+      "category": "blockchain",
+      "title": "Speed Fun",
+      "description": "You can add your own symbol to the end of the token address.",
+      "image": "speedfun.png",
+      "technologies": [
+        "Jupiter",
+        "Web3",
+        "React",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "Tailwind"
+      ],
+      "link": "https://speed-fun.vercel.app/",
+      "features": "Token exploration, responsive design, Tailwind CSS.",
+      "impact": "Improved user retention by 30% with engaging content."
+    },
+    {
+      "id": "blockchain-9",
+      "category": "blockchain",
+      "title": "Faucet Solana",
+      "description": "Solana Faucet for testing purposes.",
+      "image": "faucet.png",
+      "technologies": [
+        "Solana",
+        "Web3",
+        "React",
+        "JavaScript",
+        "Tailwind"
+      ],
+      "link": "https://faucet-solana-kohl.vercel.app/",
+      "features": "Testing environment for Solana transactions.",
+      "impact": "Enhanced testing capabilities for Solana developers."
+    },
+    {
+      "id": "blockchain-10",
+      "category": "blockchain",
+      "title": "Paripesa",
+      "description": "Paripesa is a platform for trading and investing in cryptocurrencies.",
+      "image": "crypto-betting.png",
+      "technologies": [
+        "Solana",
+        "Ethereum",
+        "Web3",
+        "Angular",
+        "JavaScript"
+      ],
+      "link": "https://paripesa.com/",
+      "features": "Comprehensive trading tools, user-friendly interface.",
+      "impact": "Increased trading volume by 30% with improved user experience."
+    },
+    {
+      "id": "ai-0",
+      "category": "ai",
+      "title": "Predictive Maintenance System",
+      "description": "A system for predicting equipment failures",
+      "image": "PMS.jpg",
+      "technologies": [
+        "Python",
+        "TensorFlow",
+        "AWS"
+      ],
+      "link": "https://github.com/Axioner/predictive-maintenance",
+      "features": "Real-time monitoring, failure prediction.",
+      "impact": "Reduced downtime by 30%."
+    },
+    {
+      "id": "ai-1",
+      "category": "ai",
+      "title": "Sentiment Analysis Tool",
+      "description": "A tool for analyzing customer feedback and sentiment.",
+      "image": "sentiment.png",
+      "technologies": [
+        "Python",
+        "NLTK",
+        "Flask"
+      ],
+      "link": "https://github.com/Axioner/sentiment-analysis",
+      "features": "Text analysis, sentiment scoring, trend visualization.",
+      "impact": "Improved customer satisfaction by 20%."
+    },
+    {
+      "id": "ai-2",
+      "category": "ai",
+      "title": "Image Recognition System",
+      "description": "A system for identifying and classifying objects in images.",
+      "image": "recognition.png",
+      "technologies": [
+        "Python",
+        "OpenCV",
+        "PyTorch"
+      ],
+      "link": "https://github.com/Axioner/image-recognition",
+      "features": "Object detection, image classification, real-time processing.",
+      "impact": "Increased accuracy by 25%."
+    },
+    {
+      "id": "ai-3",
+      "category": "ai",
+      "title": "AI-Based Fraud Detection System",
+      "description": "Identifies fraudulent activities in financial transactions.",
+      "image": "fraud-detection.png",
+      "technologies": [
+        "Python",
+        "PyTorch",
+        "AWS"
+      ],
+      "link": "https://github.com/Axioner/fraud-detection",
+      "features": "Enhances security and reduces financial losses.",
+      "impact": "Reduced fraud incidents by 40%."
+    },
+    {
+      "id": "scraping-0",
+      "category": "scraping",
+      "title": "Web Scraper for E-Commerce Price Monitoring",
+      "description": "Tracks product prices across multiple e-commerce platforms.",
+      "image": "price-monitoring.png",
+      "technologies": [
+        "Python",
+        "BeautifulSoup",
+        "Scrapy"
+      ],
+      "link": "https://github.com/Axioner/price-monitoring",
+      "features": "Enhances security and reduces financial losses.",
+      "impact": "Reduced manual monitoring time by 80% and increased profit margins by 15%."
+    },
+    {
+      "id": "scraping-1",
+      "category": "scraping",
+      "title": "Automated Social Media Posting Bot",
+      "description": "Schedules and posts content on multiple social media platforms.",
+      "image": "posting-bot.jpeg",
+      "technologies": [
+        "Python",
+        "Selenium",
+        "Twitter",
+        "Instagram",
+        "Discord",
+        "Telegram"
+      ],
+      "link": "https://github.com/Axioner/posting-bot",
+      "features": "Multi-platform support, post scheduling, analytics tracking.",
+      "impact": "Increased social media engagement by 40% and saved 10+ hours per week."
+    },
+    {
+      "id": "scraping-2",
+      "category": "scraping",
+      "title": "PDF Data Extraction & Automation Tool",
+      "description": "Extracts data from PDFs and populates databases.",
+      "image": "pdf-extraction.png",
+      "technologies": [
+        "Python",
+        "PyPDF2",
+        "Pandas"
+      ],
+      "link": "https://github.com/Axioner/pdf-data-extraction",
+      "features": "Batch processing, data validation, export to CSV/Excel.",
+      "impact": "Reduced data entry errors by 90% and improved processing speed by 5x."
+    },
+    {
+      "id": "scraping-3",
+      "category": "scraping",
+      "title": "Automated Email Response System",
+      "description": "Sends personalized email responses based on incoming queries.",
+      "image": "email-response.png",
+      "technologies": [
+        "Python",
+        "SMTP"
+      ],
+      "link": "https://github.com/Axioner/email-response",
+      "features": " Template-based responses, sentiment analysis.",
+      "impact": "Improved response time by 70% and enhanced customer satisfaction."
+    },
+    {
+      "id": "scraping-4",
+      "category": "scraping",
+      "title": "Job Board Scraper for Market Analysis",
+      "description": "Collects job postings for market trend analysis.",
+      "image": "job-scraper.jpg",
+      "technologies": [
+        "Python",
+        "BeautifulSoup",
+        "Scrapy",
+        "MongoDB"
+      ],
+      "link": "https://github.com/Axioner/job-scraper",
+      "features": "Keyword filtering, data visualization.",
+      "impact": "Provided actionable insights that led to a 20% increase in hiring efficiency."
+    },
+    {
+      "id": "scraping-5",
+      "category": "scraping",
+      "title": "Real Estate Data Scraper",
+      "description": "Collects and analyzes real estate listings from various platforms.",
+      "image": "real-estate-scraper.jpg",
+      "technologies": [
+        "Python",
+        "BeautifulSoup",
+        "Pandas"
+      ],
+      "link": "https://github.com/Axioner/real-estate-scraper",
+      "features": "Automated data collection, market trend analysis, CSV export.",
+      "impact": "Improved market insights and decision-making efficiency by 25%."
+    },
+    {
+      "id": "scraping-6",
+      "category": "scraping",
+      "title": "News Aggregator Bot",
+      "description": "Aggregates news articles from multiple sources for trend analysis.",
+      "image": "news-aggregator.png",
+      "technologies": [
+        "Python",
+        "Scrapy",
+        "MongoDB"
+      ],
+      "link": "https://github.com/Axioner/news-aggregator",
+      "features": "Real-time news updates, sentiment analysis, data visualization.",
+      "impact": "Enhanced news coverage and user engagement by 30%."
+    }
+  ]
+}

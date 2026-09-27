@@ -1,0 +1,275 @@
+[
+  {
+    "name": "React",
+    "level": 95,
+    "categories": [
+      "frontend"
+    ],
+    "color": "text-cyan-400",
+    "description": "A powerful JavaScript library for building user interfaces with component-based architecture, virtual DOM, and a rich ecosystem of tools and libraries."
+  },
+  {
+    "name": "Next.js",
+    "level": 92,
+    "categories": [
+      "frontend"
+    ],
+    "color": "text-white",
+    "description": "A React framework that lets you build fast, production-ready web applications with features like server-side rendering, routing, and backend APIs built in."
+  },
+  {
+    "name": "TypeScript",
+    "level": 90,
+    "categories": [
+      "frontend",
+      "backend"
+    ],
+    "color": "text-blue-500",
+    "description": "A strongly typed programming language that builds on JavaScript, providing better tooling, error detection, and code maintainability for large-scale applications."
+  },
+  {
+    "name": "JavaScript",
+    "level": 95,
+    "categories": [
+      "frontend",
+      "backend"
+    ],
+    "color": "text-yellow-400",
+    "description": "The core programming language of the web, enabling dynamic and interactive web applications with modern ES6+ features, async/await, and extensive ecosystem."
+  },
+  {
+    "name": "Vue.js",
+    "level": 85,
+    "categories": [
+      "frontend"
+    ],
+    "color": "text-green-500",
+    "description": "A progressive JavaScript framework for building user interfaces with an approachable API, excellent performance, and a flexible ecosystem."
+  },
+  {
+    "name": "Angular",
+    "level": 80,
+    "categories": [
+      "frontend"
+    ],
+    "color": "text-red-500",
+    "description": "A comprehensive TypeScript-based framework for building large-scale enterprise applications with dependency injection, routing, and powerful CLI tools."
+  },
+  {
+    "name": "Tailwind CSS",
+    "level": 95,
+    "categories": [
+      "frontend"
+    ],
+    "color": "text-cyan-400",
+    "description": "A utility-first CSS framework that enables rapid UI development with pre-built classes, responsive design utilities, and extensive customization options."
+  },
+  {
+    "name": "Node.js",
+    "level": 90,
+    "categories": [
+      "backend"
+    ],
+    "color": "text-green-500",
+    "description": "A JavaScript runtime built on Chrome's V8 engine that enables server-side development with non-blocking I/O, perfect for scalable network applications."
+  },
+  {
+    "name": "Python",
+    "level": 88,
+    "categories": [
+      "backend",
+      "ai"
+    ],
+    "color": "text-yellow-400",
+    "description": "A versatile, high-level programming language known for its simplicity and readability, widely used in web development, data science, and AI/ML applications."
+  },
+  {
+    "name": "Django",
+    "level": 82,
+    "categories": [
+      "backend"
+    ],
+    "color": "text-green-600",
+    "description": "A high-level Python web framework that encourages rapid development and clean, pragmatic design with built-in admin panel, ORM, and security features."
+  },
+  {
+    "name": "Express.js",
+    "level": 88,
+    "categories": [
+      "backend"
+    ],
+    "color": "text-white",
+    "description": "A minimal and flexible Node.js web application framework that provides a robust set of features for building APIs and web applications."
+  },
+  {
+    "name": "PHP",
+    "level": 75,
+    "categories": [
+      "backend"
+    ],
+    "color": "text-purple-500",
+    "description": "A popular server-side scripting language designed for web development, powering many content management systems and e-commerce platforms."
+  },
+  {
+    "name": "PostgreSQL",
+    "level": 85,
+    "categories": [
+      "backend"
+    ],
+    "color": "text-blue-400",
+    "description": "A powerful, open-source relational database system with advanced features like JSON support, full-text search, and ACID compliance."
+  },
+  {
+    "name": "MongoDB",
+    "level": 88,
+    "categories": [
+      "backend"
+    ],
+    "color": "text-green-500",
+    "description": "A NoSQL document database that provides high performance, high availability, and easy scalability for modern application development."
+  },
+  {
+    "name": "React Native",
+    "level": 88,
+    "categories": [
+      "mobile"
+    ],
+    "color": "text-cyan-400",
+    "description": "A framework for building native mobile apps using React, allowing code sharing between iOS and Android while maintaining native performance."
+  },
+  {
+    "name": "Flutter",
+    "level": 82,
+    "categories": [
+      "mobile"
+    ],
+    "color": "text-blue-400",
+    "description": "Google's UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase using Dart."
+  },
+  {
+    "name": "Kotlin",
+    "level": 75,
+    "categories": [
+      "mobile"
+    ],
+    "color": "text-purple-500",
+    "description": "A modern, statically typed programming language for Android development, offering concise syntax, null safety, and full Java interoperability."
+  },
+  {
+    "name": "Swift",
+    "level": 70,
+    "categories": [
+      "mobile"
+    ],
+    "color": "text-orange-500",
+    "description": "Apple's powerful and intuitive programming language for iOS, macOS, watchOS, and tvOS development with modern syntax and safety features."
+  },
+  {
+    "name": "Solidity",
+    "level": 85,
+    "categories": [
+      "blockchain"
+    ],
+    "color": "text-gray-400",
+    "description": "A statically-typed programming language designed for developing smart contracts that run on the Ethereum Virtual Machine (EVM)."
+  },
+  {
+    "name": "Ethereum",
+    "level": 88,
+    "categories": [
+      "blockchain"
+    ],
+    "color": "text-purple-400",
+    "description": "A decentralized blockchain platform that enables smart contracts and decentralized applications (DApps) with its native cryptocurrency, Ether."
+  },
+  {
+    "name": "Solana",
+    "level": 80,
+    "categories": [
+      "blockchain"
+    ],
+    "color": "text-purple-500",
+    "description": "A high-performance blockchain platform designed for decentralized apps and crypto-currencies with fast transaction speeds and low fees."
+  },
+  {
+    "name": "Web3.js",
+    "level": 85,
+    "categories": [
+      "blockchain"
+    ],
+    "color": "text-orange-400",
+    "description": "A JavaScript library for interacting with Ethereum blockchain, enabling developers to connect applications to Ethereum nodes and smart contracts."
+  },
+  {
+    "name": "TensorFlow",
+    "level": 78,
+    "categories": [
+      "ai"
+    ],
+    "color": "text-orange-500",
+    "description": "An open-source machine learning framework developed by Google for building and deploying ML models, especially deep learning neural networks."
+  },
+  {
+    "name": "PyTorch",
+    "level": 75,
+    "categories": [
+      "ai"
+    ],
+    "color": "text-red-500",
+    "description": "A deep learning framework developed by Facebook that provides dynamic computation graphs and intuitive Python APIs for research and production."
+  },
+  {
+    "name": "OpenAI API",
+    "level": 85,
+    "categories": [
+      "ai"
+    ],
+    "color": "text-green-400",
+    "description": "A powerful API for accessing advanced AI models like GPT, enabling natural language processing, text generation, and intelligent application features."
+  },
+  {
+    "name": "Git",
+    "level": 95,
+    "categories": [
+      "tools"
+    ],
+    "color": "text-orange-500",
+    "description": "A distributed version control system for tracking changes in source code, enabling collaboration, branching, and efficient project management."
+  },
+  {
+    "name": "Docker",
+    "level": 85,
+    "categories": [
+      "tools"
+    ],
+    "color": "text-blue-400",
+    "description": "A containerization platform that packages applications with their dependencies, ensuring consistent deployment across different environments."
+  },
+  {
+    "name": "AWS",
+    "level": 80,
+    "categories": [
+      "tools"
+    ],
+    "color": "text-orange-400",
+    "description": "Amazon Web Services provides a comprehensive cloud computing platform with services for computing, storage, databases, and application deployment."
+  },
+  {
+    "name": "Firebase",
+    "level": 88,
+    "categories": [
+      "tools"
+    ],
+    "color": "text-yellow-500",
+    "description": "Google's platform for building mobile and web applications with features like real-time database, authentication, hosting, and cloud functions."
+  },
+  {
+    "name": "Figma",
+    "level": 75,
+    "categories": [
+      "tools"
+    ],
+    "color": "text-purple-400",
+    "description": "A collaborative design tool for creating user interfaces, prototypes, and design systems with real-time collaboration and developer handoff features."
+  }
+]
