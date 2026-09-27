@@ -283,11 +283,11 @@ function CategoryTriangle({
         const active = category === item.id;
         const featured = cell.id === "peak" || cell.id === "diam";
         const lines = displayLabel[item.id].split("\n");
-        const icon = featured ? 22 : 18;
-        const lineH = 13;
-        const gap = 5;
-        const countGap = 4;
-        const stackH = icon + gap + lines.length * lineH + countGap + 12;
+        const icon = featured ? 26 : 22;
+        const lineH = 15;
+        const gap = 6;
+        const countGap = 5;
+        const stackH = icon + gap + lines.length * lineH + countGap + 14;
         const top = cell.cy - stackH / 2;
         const iconStroke = featured
           ? "rgba(230,162,60,0.55)"
@@ -300,7 +300,7 @@ function CategoryTriangle({
             ? "rgba(58,209,176,0.15)"
             : "rgba(0,0,0,0.5)";
         const iconColor = featured ? "#edaf5f" : active ? "#3ad1b0" : "#f3ebe2";
-        const glyph = featured ? 12 : 10;
+        const glyph = featured ? 14 : 12;
         return (
           <g key={cell.id} className="cursor-pointer" onClick={() => onSelect(item.id)}>
             <path
@@ -317,7 +317,7 @@ function CategoryTriangle({
                 y={top}
                 width={icon}
                 height={icon}
-                rx={featured ? 7 : 6}
+                rx={featured ? 8 : 7}
                 fill={iconFill}
                 stroke={iconStroke}
                 strokeWidth={1.2}
@@ -332,7 +332,7 @@ function CategoryTriangle({
                   y={top + icon + gap + (index + 1) * lineH - 2}
                   textAnchor="middle"
                   fill="#f3ebe2"
-                  fontSize={11}
+                  fontSize={13}
                   fontWeight={600}
                 >
                   {line}
@@ -340,10 +340,10 @@ function CategoryTriangle({
               ))}
               <text
                 x={cell.cx}
-                y={top + icon + gap + lines.length * lineH + countGap + 10}
+                y={top + icon + gap + lines.length * lineH + countGap + 12}
                 textAnchor="middle"
                 fill="#edaf5f"
-                fontSize={12}
+                fontSize={14}
                 fontWeight={700}
               >
                 {item.count}
