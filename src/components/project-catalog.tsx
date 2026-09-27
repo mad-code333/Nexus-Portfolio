@@ -23,16 +23,26 @@ type CellId = "peak" | "midL" | "midR" | "diam" | "botL" | "botC" | "botR";
 
 /**
  * Extra-wide triangle: mid chambers get more horizontal room for full labels.
- * viewBox 0 0 520 360 — apex 260. cx/cy = stack center.
+ * viewBox 0 0 520 360 — apex 260.
+ * y0/y1 = safe vertical band; scale = max icon/label/count that still fits.
  */
-const CELLS: { id: CellId; path: string; cx: number; cy: number }[] = [
-  { id: "peak", path: "M260 14 L356 132 L164 132 Z", cx: 260, cy: 86 },
-  { id: "midL", path: "M164 132 L260 132 L198 248 L52 248 Z", cx: 166, cy: 186 },
-  { id: "midR", path: "M260 132 L356 132 L468 248 L322 248 Z", cx: 354, cy: 186 },
-  { id: "diam", path: "M260 132 L322 248 L260 268 L198 248 Z", cx: 260, cy: 200 },
-  { id: "botL", path: "M52 248 L198 248 L260 268 L90 348 L4 348 Z", cx: 114, cy: 286 },
-  { id: "botC", path: "M260 268 L430 348 L90 348 Z", cx: 260, cy: 308 },
-  { id: "botR", path: "M322 248 L468 248 L516 348 L430 348 L260 268 Z", cx: 406, cy: 286 },
+const CELLS: {
+  id: CellId;
+  path: string;
+  cx: number;
+  y0: number;
+  y1: number;
+  icon: number;
+  font: number;
+  count: number;
+}[] = [
+  { id: "peak", path: "M260 14 L356 132 L164 132 Z", cx: 260, y0: 28, y1: 124, icon: 28, font: 15, count: 16 },
+  { id: "midL", path: "M164 132 L260 132 L198 248 L52 248 Z", cx: 166, y0: 140, y1: 240, icon: 30, font: 15, count: 16 },
+  { id: "midR", path: "M260 132 L356 132 L468 248 L322 248 Z", cx: 354, y0: 140, y1: 240, icon: 30, font: 15, count: 16 },
+  { id: "diam", path: "M260 132 L322 248 L260 268 L198 248 Z", cx: 260, y0: 145, y1: 248, icon: 24, font: 13, count: 14 },
+  { id: "botL", path: "M52 248 L198 248 L260 268 L90 348 L4 348 Z", cx: 114, y0: 258, y1: 338, icon: 24, font: 14, count: 15 },
+  { id: "botC", path: "M260 268 L430 348 L90 348 Z", cx: 260, y0: 278, y1: 338, icon: 22, font: 14, count: 15 },
+  { id: "botR", path: "M322 248 L468 248 L516 348 L430 348 L260 268 Z", cx: 406, y0: 258, y1: 338, icon: 28, font: 15, count: 16 },
 ];
 
 const CELL_ORDER: CellId[] = ["peak", "midL", "midR", "diam", "botL", "botC", "botR"];
@@ -283,12 +293,14 @@ function CategoryTriangle({
         const active = category === item.id;
         const featured = cell.id === "peak" || cell.id === "diam";
         const lines = displayLabel[item.id].split("\n");
-        const icon = featured ? 26 : 22;
-        const lineH = 15;
-        const gap = 6;
-        const countGap = 5;
-        const stackH = icon + gap + lines.length * lineH + countGap + 14;
-        const top = cell.cy - stackH / 2;
+        const { icon, font, count: countSize } = cell;
+        const glyph = Math.round(icon * 0.55);
+        const lineH = Math.round(font * 1.18);
+        const gap = Math.max(4, Math.round(icon * 0.16));
+        const countGap = Math.max(3, Math.round(icon * 0.12));
+        const stackH = icon + gap + lines.length * lineH + countGap + countSize;
+        const band = cell.y1 - cell.y0;
+        const top = cell.y0 + Math.max(0, (band - stackH) / 2);
         const iconStroke = featured
           ? "rgba(230,162,60,0.55)"
           : active
@@ -300,7 +312,6 @@ function CategoryTriangle({
             ? "rgba(58,209,176,0.15)"
             : "rgba(0,0,0,0.5)";
         const iconColor = featured ? "#edaf5f" : active ? "#3ad1b0" : "#f3ebe2";
-        const glyph = featured ? 14 : 12;
         return (
           <g key={cell.id} className="cursor-pointer" onClick={() => onSelect(item.id)}>
             <path
@@ -317,7 +328,7 @@ function CategoryTriangle({
                 y={top}
                 width={icon}
                 height={icon}
-                rx={featured ? 8 : 7}
+                rx={Math.round(icon * 0.3)}
                 fill={iconFill}
                 stroke={iconStroke}
                 strokeWidth={1.2}
@@ -332,18 +343,18 @@ function CategoryTriangle({
                   y={top + icon + gap + (index + 1) * lineH - 2}
                   textAnchor="middle"
                   fill="#f3ebe2"
-                  fontSize={13}
-                  fontWeight={600}
+                  fontSize={font}
+                  fontWeight={700}
                 >
                   {line}
                 </text>
               ))}
               <text
                 x={cell.cx}
-                y={top + icon + gap + lines.length * lineH + countGap + 12}
+                y={top + icon + gap + lines.length * lineH + countGap + countSize - 2}
                 textAnchor="middle"
                 fill="#edaf5f"
-                fontSize={14}
+                fontSize={countSize}
                 fontWeight={700}
               >
                 {item.count}
