@@ -4,47 +4,48 @@ export const services = [
     badge: "Full Stack",
     icon: "code" as const,
     summary:
-      "Full-stack web solutions with Next.js, React, Vue, Angular, and PHP. Building e-commerce platforms, Web3 applications, and products that stay fast as they grow.",
+      "SaaS products, e-commerce, and marketplace platforms on Next.js, React, Vue, Angular, and PHP — engineered for conversion, SEO, and scale.",
   },
   {
     title: "Mobile Development",
     badge: "iOS & Android",
     icon: "phone" as const,
     summary:
-      "Native and cross-platform mobile applications using Flutter, React Native, and Kotlin. From IoT management to social products people open every day.",
+      "Native and cross-platform apps with Flutter, React Native, and Kotlin — IoT dashboards, consumer social, and field tools built for daily use.",
   },
   {
     title: "Software Development",
     badge: "Enterprise",
     icon: "monitor" as const,
     summary:
-      "Enterprise software solutions using Python, Java, Django, and Spring Boot. Building CRM systems, inventory management, and tools teams actually adopt.",
+      "CRM, ERP, and operations software on Python, Java, Django, and Spring Boot — inventory, workflows, and internal tools teams actually adopt.",
   },
   {
     title: "Blockchain & AI Solutions",
     badge: "Emerging Tech",
-    icon: "spark" as const,
+    icon: "brain" as const,
     summary:
-      "Expert guidance on blockchain, AI/ML, automation, and Web3 solutions. From smart contracts to AI-powered systems, we help teams ship with care.",
+      "Smart contracts, DeFi, ML pipelines, and automation — Web3 and AI systems scoped for production, security, and measurable outcomes.",
   },
 ];
 
-export const expertise = [
-  {
-    title: "System Architecture",
-    tone: "rose" as const,
-    body: "Designing scalable, well-structured systems that balance performance, flexibility, and simplicity. Focus on clear boundaries, data flow, and technical decisions that support growth without unnecessary complexity.",
-  },
-  {
-    title: "API Design",
-    tone: "ink" as const,
-    body: "Engineering production-ready RESTful and GraphQL APIs with clear contracts, versioning, and documentation so teams can ship without guesswork.",
-  },
-  {
-    title: "User-Centered Design",
-    tone: "teal" as const,
-    body: "Designing accessible, usable products that prioritize performance. Optimization stays meticulous, shaped through user testing and research.",
-  },
+export const expertiseFeatures = [
+  { title: "System Architecture", kind: "architecture" as const },
+  { title: "API Design", kind: "api" as const },
+  { title: "User-Centered Design", kind: "ux" as const },
+  { title: "Clean Code & Best Practices", kind: "clean" as const },
+  { title: "Cloud Architecture", kind: "cloud" as const },
+];
+
+export const expertiseSkills = [
+  { title: "Modern Frameworks", icon: "frameworks" as const },
+  { title: "Performance Optimization", icon: "performance" as const },
+  { title: "Responsive Design", icon: "responsive" as const },
+  { title: "Testing & Quality", icon: "testing" as const },
+  { title: "Agile Methodology", icon: "agile" as const },
+  { title: "Continuous Learning", icon: "learning" as const },
+  { title: "Open Source", icon: "opensource" as const },
+  { title: "Team Collaboration", icon: "team" as const },
 ];
 
 export const processSteps = [

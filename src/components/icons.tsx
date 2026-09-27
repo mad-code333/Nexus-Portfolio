@@ -32,7 +32,13 @@ export function RocketIcon({ className }: IconProps) {
 export function CodeIcon({ className }: IconProps) {
   return (
     <svg viewBox="0 0 24 24" fill="none" className={className} aria-hidden>
-      <path d="M9 8 5.5 12 9 16M15 8l3.5 4L15 16" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+      <path
+        d="M8.5 7.5 4 12l4.5 4.5M15.5 7.5 20 12l-4.5 4.5M13.2 6.5l-2.4 11"
+        stroke="currentColor"
+        strokeWidth="1.65"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
     </svg>
   );
 }
@@ -40,8 +46,8 @@ export function CodeIcon({ className }: IconProps) {
 export function PhoneIcon({ className }: IconProps) {
   return (
     <svg viewBox="0 0 24 24" fill="none" className={className} aria-hidden>
-      <rect x="8" y="3.5" width="8" height="17" rx="2" stroke="currentColor" strokeWidth="1.6" />
-      <path d="M11 17.5h2" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+      <rect x="7.5" y="3" width="9" height="18" rx="2.2" stroke="currentColor" strokeWidth="1.65" />
+      <path d="M10.5 5.5h3M11 18.5h2" stroke="currentColor" strokeWidth="1.65" strokeLinecap="round" />
     </svg>
   );
 }
@@ -49,8 +55,8 @@ export function PhoneIcon({ className }: IconProps) {
 export function MonitorIcon({ className }: IconProps) {
   return (
     <svg viewBox="0 0 24 24" fill="none" className={className} aria-hidden>
-      <rect x="3.5" y="5" width="17" height="11" rx="1.6" stroke="currentColor" strokeWidth="1.6" />
-      <path d="M9 19.5h6M12 16v3.5" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+      <rect x="3" y="4.5" width="18" height="12" rx="1.8" stroke="currentColor" strokeWidth="1.65" />
+      <path d="M8.5 20h7M12 16.5V20" stroke="currentColor" strokeWidth="1.65" strokeLinecap="round" />
     </svg>
   );
 }
@@ -58,12 +64,40 @@ export function MonitorIcon({ className }: IconProps) {
 export function SparkIcon({ className }: IconProps) {
   return (
     <svg viewBox="0 0 24 24" fill="none" className={className} aria-hidden>
-      <path d="M12 3.5 13.4 9 19 10.5 13.4 12 12 17.5 10.6 12 5 10.5 10.6 9 12 3.5Z" stroke="currentColor" strokeWidth="1.5" strokeLinejoin="round" />
-      <path d="M17.5 15.5 18.1 17.4 20 18l-1.9.6L17.5 20.5 16.9 18.6 15 18l1.9-.6.6-1.9Z" stroke="currentColor" strokeWidth="1.3" strokeLinejoin="round" />
+      <path
+        d="M12 3.2 13.55 9.1 19.5 10.6 13.55 12.1 12 18 10.45 12.1 4.5 10.6 10.45 9.1 12 3.2Z"
+        stroke="currentColor"
+        strokeWidth="1.55"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M18.2 15.2 18.85 17.15 20.8 17.8l-1.95.65L18.2 20.4l-.65-1.95L15.6 17.8l1.95-.65.65-1.95Z"
+        stroke="currentColor"
+        strokeWidth="1.35"
+        strokeLinejoin="round"
+      />
     </svg>
   );
 }
 
+export function BrainIcon({ className }: IconProps) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" className={className} aria-hidden>
+      <path
+        d="M9.2 5.2a2.6 2.6 0 0 1 2.8-2 2.6 2.6 0 0 1 2.8 2c1.4.2 2.5 1.4 2.5 2.9 0 .5-.1 1-.4 1.4 1 .6 1.6 1.7 1.6 2.9 0 1.4-.8 2.6-2 3.2v1.6c0 1.3-1 2.3-2.3 2.3h-.6c-.4 1-1.4 1.7-2.6 1.7s-2.2-.7-2.6-1.7h-.6c-1.3 0-2.3-1-2.3-2.3v-1.6c-1.2-.6-2-1.8-2-3.2 0-1.2.6-2.3 1.6-2.9-.3-.4-.4-.9-.4-1.4 0-1.5 1.1-2.7 2.5-2.9Z"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M12 4.2v14.2M9.2 9.2c.7.4 1.5.6 2.8.6s2.1-.2 2.8-.6M9.5 13c.8.4 1.6.6 2.5.6s1.7-.2 2.5-.6"
+        stroke="currentColor"
+        strokeWidth="1.4"
+        strokeLinecap="round"
+      />
+    </svg>
+  );
+}
 export function ArrowUpRight({ className }: IconProps) {
   return (
     <svg viewBox="0 0 24 24" fill="none" className={className} aria-hidden>
@@ -90,20 +124,26 @@ export function UserIcon({ className }: IconProps) {
   );
 }
 
-const serviceIcons = {
-  code: CodeIcon,
-  phone: PhoneIcon,
-  monitor: MonitorIcon,
-  spark: SparkIcon,
-};
+export type ServiceIconName = "code" | "phone" | "monitor" | "spark" | "brain";
 
 export function ServiceGlyph({
   name,
   className,
 }: {
-  name: keyof typeof serviceIcons;
+  name: ServiceIconName;
   className?: string;
 }) {
-  const Icon = serviceIcons[name];
-  return <Icon className={className} />;
+  switch (name) {
+    case "code":
+      return <CodeIcon className={className} />;
+    case "phone":
+      return <PhoneIcon className={className} />;
+    case "monitor":
+      return <MonitorIcon className={className} />;
+    case "brain":
+      return <BrainIcon className={className} />;
+    case "spark":
+    default:
+      return <SparkIcon className={className} />;
+  }
 }

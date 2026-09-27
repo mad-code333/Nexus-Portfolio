@@ -6,7 +6,7 @@ import { services } from "@/data/site";
 
 export const metadata: Metadata = {
   title: "Services",
-  description: "Web, mobile, enterprise software, and blockchain and AI work.",
+  description: "Full-stack SaaS and commerce, mobile apps, enterprise CRM/ERP, and blockchain and AI systems.",
 };
 
 export default function ServicesPage() {
