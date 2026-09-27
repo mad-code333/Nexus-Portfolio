@@ -1,7 +1,7 @@
 import { expertise } from "@/data/site";
 
 const tones = {
-  rose: "bg-[#dc6564] text-[#3d2422]",
+  rose: "bg-[#e6a23c] text-[#1a1208]",
   ink: "border border-[var(--line)] bg-[var(--card)] text-cream",
   teal: "bg-[#14685e] text-[#f4fff9]",
 };

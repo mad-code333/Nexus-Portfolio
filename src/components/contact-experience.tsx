@@ -6,7 +6,7 @@ import { FaEnvelope, FaGithub, FaPaperPlane, FaPhone, FaTelegram } from "react-i
 import { SiteHeader } from "./site-header";
 
 const inputClass =
-  "w-full rounded-xl border border-cream/10 bg-black/25 px-3 py-2.5 text-sm text-cream outline-none transition placeholder:text-cream/40 focus:border-[#d86555]/50 focus:ring-2 focus:ring-[#d86555]/50 sm:px-4 sm:py-3 sm:text-base";
+  "w-full rounded-xl border border-cream/10 bg-black/25 px-3 py-2.5 text-sm text-cream outline-none transition placeholder:text-cream/40 focus:border-[#e6a23c]/50 focus:ring-2 focus:ring-[#e6a23c]/50 sm:px-4 sm:py-3 sm:text-base";
 
 const emptyFields = { fullName: "", email: "", subject: "", message: "" };
 
@@ -53,16 +53,16 @@ export function ContactExperience() {
           <div className="relative z-10 mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="mb-6 flex w-full flex-col items-start justify-between gap-4 sm:mb-8 sm:flex-row sm:items-center">
               <h1 className="text-2xl font-semibold tracking-tight text-cream sm:text-3xl md:text-4xl">
-                Let&apos;s <span className="mx-2 text-[#d86555]">Connect</span>
+                Let&apos;s <span className="mx-2 text-[#e6a23c]">Connect</span>
               </h1>
               <div className="flex items-center gap-2 sm:gap-3">
-                <a href="mailto:contact@nexorahq.dev" aria-label="Email" className="text-xl text-[#d86555] transition hover:opacity-80 sm:text-2xl">
+                <a href="mailto:contact@nexorahq.dev" aria-label="Email" className="text-xl text-[#e6a23c] transition hover:opacity-80 sm:text-2xl">
                   <FaEnvelope />
                 </a>
-                <a href="https://t.me/nexora_w" target="_blank" rel="noopener noreferrer" aria-label="Telegram" className="text-xl text-[#d86555] transition hover:opacity-80 sm:text-2xl">
+                <a href="https://t.me/nexora_w" target="_blank" rel="noopener noreferrer" aria-label="Telegram" className="text-xl text-[#e6a23c] transition hover:opacity-80 sm:text-2xl">
                   <FaTelegram />
                 </a>
-                <a href="https://github.com/Axioner" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="text-xl text-[#d86555] transition hover:opacity-80 sm:text-2xl">
+                <a href="https://github.com/Axioner" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="text-xl text-[#e6a23c] transition hover:opacity-80 sm:text-2xl">
                   <FaGithub />
                 </a>
               </div>
@@ -80,9 +80,9 @@ export function ContactExperience() {
                 <h2 className="mb-4 text-xl font-semibold text-cream sm:mb-6 sm:text-2xl">Contact Information</h2>
                 <a
                   href="mailto:contact@nexorahq.dev"
-                  className="flex items-start gap-3 rounded-xl border border-cream/10 bg-[var(--card)]/70 p-3 backdrop-blur-sm transition hover:border-[#d86555]/50 sm:gap-4 sm:p-4"
+                  className="flex items-start gap-3 rounded-xl border border-cream/10 bg-[var(--card)]/70 p-3 backdrop-blur-sm transition hover:border-[#e6a23c]/50 sm:gap-4 sm:p-4"
                 >
-                  <span className="grid h-10 w-10 shrink-0 place-items-center rounded-lg bg-[#d86555]/10 text-lg text-[#d86555] sm:h-12 sm:w-12 sm:text-xl">
+                  <span className="grid h-10 w-10 shrink-0 place-items-center rounded-lg bg-[#e6a23c]/10 text-lg text-[#e6a23c] sm:h-12 sm:w-12 sm:text-xl">
                     <FaEnvelope aria-hidden />
                   </span>
                   <span className="min-w-0 flex-1">
@@ -100,7 +100,7 @@ export function ContactExperience() {
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="GitHub"
-                    className="grid h-10 w-10 place-items-center rounded-lg border border-cream/10 bg-[var(--card)]/70 text-lg text-cream/70 backdrop-blur-sm transition hover:scale-110 hover:border-[#d86555]/50 hover:text-cream active:scale-95 sm:h-12 sm:w-12 sm:text-xl"
+                    className="grid h-10 w-10 place-items-center rounded-lg border border-cream/10 bg-[var(--card)]/70 text-lg text-cream/70 backdrop-blur-sm transition hover:scale-110 hover:border-[#e6a23c]/50 hover:text-cream active:scale-95 sm:h-12 sm:w-12 sm:text-xl"
                   >
                     <FaGithub />
                   </a>
@@ -109,7 +109,7 @@ export function ContactExperience() {
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="Telegram"
-                    className="grid h-10 w-10 place-items-center rounded-lg border border-cream/10 bg-[var(--card)]/70 text-lg text-cream/70 backdrop-blur-sm transition hover:scale-110 hover:border-[#d86555]/50 hover:text-[#3ad1b0] active:scale-95 sm:h-12 sm:w-12 sm:text-xl"
+                    className="grid h-10 w-10 place-items-center rounded-lg border border-cream/10 bg-[var(--card)]/70 text-lg text-cream/70 backdrop-blur-sm transition hover:scale-110 hover:border-[#e6a23c]/50 hover:text-[#3ad1b0] active:scale-95 sm:h-12 sm:w-12 sm:text-xl"
                   >
                     <FaTelegram />
                   </a>
@@ -142,7 +142,7 @@ export function ContactExperience() {
                   <div className="grid gap-4 sm:grid-cols-2 sm:gap-6">
                     <label className="block" htmlFor="fullName">
                       <span className="mb-2 block font-medium text-cream">
-                        Full Name <span className="text-[#d86555]">*</span>
+                        Full Name <span className="text-[#e6a23c]">*</span>
                       </span>
                       <input
                         id="fullName"
@@ -158,7 +158,7 @@ export function ContactExperience() {
                     </label>
                     <label className="block" htmlFor="email">
                       <span className="mb-2 block font-medium text-cream">
-                        Email Address <span className="text-[#d86555]">*</span>
+                        Email Address <span className="text-[#e6a23c]">*</span>
                       </span>
                       <input
                         id="email"
@@ -175,7 +175,7 @@ export function ContactExperience() {
                   </div>
                   <label className="block" htmlFor="subject">
                     <span className="mb-2 block font-medium text-cream">
-                      Subject <span className="text-[#d86555]">*</span>
+                      Subject <span className="text-[#e6a23c]">*</span>
                     </span>
                     <input
                       id="subject"
@@ -190,7 +190,7 @@ export function ContactExperience() {
                   </label>
                   <label className="block" htmlFor="message">
                     <span className="mb-2 block font-medium text-cream">
-                      Message <span className="text-[#d86555]">*</span>
+                      Message <span className="text-[#e6a23c]">*</span>
                     </span>
                     <textarea
                       id="message"
@@ -206,7 +206,7 @@ export function ContactExperience() {
                   <button
                     type="submit"
                     disabled={sending}
-                    className="group relative inline-flex w-full items-center justify-center gap-2 rounded-full bg-gradient-to-r from-[#d86555] to-[#f0a090] px-6 py-3 text-sm font-semibold text-[#3d2422] transition hover:scale-105 hover:shadow-xl hover:shadow-[#d86555]/30 active:scale-95 disabled:cursor-not-allowed disabled:opacity-50 disabled:hover:scale-100 sm:gap-3 sm:px-8 sm:py-4 sm:text-base"
+                    className="group relative inline-flex w-full items-center justify-center gap-2 rounded-full bg-gradient-to-r from-[#e6a23c] to-[#f6d27a] px-6 py-3 text-sm font-semibold text-[#3d2422] transition hover:scale-105 hover:shadow-xl hover:shadow-[#e6a23c]/30 active:scale-95 disabled:cursor-not-allowed disabled:opacity-50 disabled:hover:scale-100 sm:gap-3 sm:px-8 sm:py-4 sm:text-base"
                   >
                     {sending ? (
                       <>
@@ -232,7 +232,7 @@ export function ContactExperience() {
         <section className="bg-black/25 py-12 sm:py-16 lg:py-24">
           <div className="mx-auto grid w-full max-w-7xl gap-6 px-4 sm:grid-cols-2 sm:gap-8 sm:px-6 md:grid-cols-3 lg:px-8">
             <article className="rounded-xl border border-cream/10 bg-[var(--card)]/70 p-5 text-center backdrop-blur-sm sm:p-6">
-              <div className="mx-auto mb-3 grid h-12 w-12 place-items-center rounded-full bg-[#d86555]/10 text-xl text-[#d86555] sm:mb-4 sm:h-16 sm:w-16 sm:text-2xl">
+              <div className="mx-auto mb-3 grid h-12 w-12 place-items-center rounded-full bg-[#e6a23c]/10 text-xl text-[#e6a23c] sm:mb-4 sm:h-16 sm:w-16 sm:text-2xl">
                 <FaEnvelope aria-hidden />
               </div>
               <h3 className="mb-2 text-lg font-semibold text-cream sm:text-xl">Quick Response</h3>

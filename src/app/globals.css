@@ -1,17 +1,17 @@
 @import "tailwindcss";
 
 :root {
-  --page: #1f1a1e;
-  --cream: #f8e6cf;
-  --muted: #968f89;
-  --line: rgba(248, 230, 207, 0.16);
-  --card: #262226;
-  --coral: #d86555;
+  --page: #050505;
+  --cream: #f6f1e8;
+  --muted: #a39a90;
+  --line: rgba(230, 162, 60, 0.22);
+  --card: #111111;
+  --coral: #e6a23c;
   --teal: #3ad1b0;
-  --rose: #dc6564;
-  --rose-ink: #3d2422;
+  --rose: #e6a23c;
+  --rose-ink: #1a1208;
   --teal-card: #14685e;
-  --header: rgba(31, 26, 30, 0.86);
+  --header: rgba(5, 5, 5, 0.9);
 }
 
 html[data-theme="light"] {
@@ -38,14 +38,23 @@ html {
 }
 
 body {
-  background: var(--page);
+  background-color: var(--page);
+  background-image:
+    radial-gradient(ellipse 70% 42% at 88% -8%, rgba(230, 120, 24, 0.34), transparent 58%),
+    radial-gradient(ellipse 55% 36% at 4% 0%, rgba(160, 42, 8, 0.28), transparent 52%),
+    radial-gradient(ellipse 46% 28% at 50% 108%, rgba(230, 162, 60, 0.12), transparent 60%);
+  background-attachment: fixed;
   color: var(--cream);
   font-family: "Manrope Variable", "Manrope", ui-sans-serif, system-ui, sans-serif;
 }
 
+html[data-theme="light"] body {
+  background-image: none;
+}
+
 ::selection {
-  background: #d86555;
-  color: #fff;
+  background: #e6a23c;
+  color: #1a1208;
 }
 
 .hero-tone {

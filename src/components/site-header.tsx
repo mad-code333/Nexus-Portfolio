@@ -16,10 +16,10 @@ export function Logo({ prominent = false }: { prominent?: boolean }) {
   return (
     <Link
       href="/home"
-      className={`flex items-center tracking-tight ${prominent ? "gap-2 text-2xl font-bold text-[#d86555]" : "gap-2.5 text-[15px] font-semibold text-cream"}`}
+      className={`flex items-center tracking-tight ${prominent ? "gap-2 text-2xl font-bold text-[#e6a23c]" : "gap-2.5 text-[15px] font-semibold text-cream"}`}
     >
       <span
-        className={`grid place-items-center rounded-full bg-[#d86555] font-bold text-white ${prominent ? "h-10 w-10 text-base" : "h-6 w-6 text-[12px]"}`}
+        className={`grid place-items-center rounded-full bg-[#e6a23c] font-bold text-white ${prominent ? "h-10 w-10 text-base" : "h-6 w-6 text-[12px]"}`}
       >
         N
       </span>

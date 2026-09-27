@@ -53,7 +53,7 @@ export function ProjectCatalog() {
               setShowAll(false);
             }}
             placeholder="Search projects..."
-            className="h-11 w-full rounded-xl border border-[var(--line)] bg-[var(--card)] px-3 text-sm text-cream outline-none ring-[#d86555] placeholder:text-muted focus:ring-2"
+            className="h-11 w-full rounded-xl border border-[var(--line)] bg-[var(--card)] px-3 text-sm text-cream outline-none ring-[#e6a23c] placeholder:text-muted focus:ring-2"
           />
         </div>
         <h2 className="mt-8 text-sm font-semibold text-cream">Categories</h2>
@@ -81,7 +81,7 @@ export function ProjectCatalog() {
           ))}
         </div>
         <p className="mt-6 border-t border-[var(--line)] pt-4 text-sm text-muted">
-          Showing <span className="font-semibold text-[#d86555]">{visible.length}</span> of{" "}
+          Showing <span className="font-semibold text-[#e6a23c]">{visible.length}</span> of{" "}
           <span className="font-semibold text-cream">{filtered.length}</span> projects
         </p>
       </aside>
@@ -98,7 +98,7 @@ export function ProjectCatalog() {
                 setCategory("all");
                 setShowAll(false);
               }}
-              className="mt-4 text-sm font-medium text-[#d86555]"
+              className="mt-4 text-sm font-medium text-[#e6a23c]"
             >
               Clear All Filters
             </button>
@@ -115,7 +115,7 @@ export function ProjectCatalog() {
                 <button
                   type="button"
                   onClick={() => setShowAll((value) => !value)}
-                  className="inline-flex h-12 items-center rounded-full bg-[#d86555] px-6 text-sm font-semibold text-white"
+                  className="inline-flex h-12 items-center rounded-full bg-[#e6a23c] px-6 text-sm font-semibold text-white"
                 >
                   {showAll ? "Show Less" : `View All ${filtered.length} Projects`}
                 </button>
@@ -184,7 +184,7 @@ function ProjectCard({ project }: { project: PortfolioProject }) {
         {open ? (
           <div className="mt-3 space-y-2 text-sm">
             <div className="rounded-lg border border-[var(--line)] p-3">
-              <p className="text-[11px] font-semibold tracking-[0.14em] text-[#d86555]">KEY FEATURES</p>
+              <p className="text-[11px] font-semibold tracking-[0.14em] text-[#e6a23c]">KEY FEATURES</p>
               <p className="mt-1 text-muted">{project.features}</p>
             </div>
             <div className="rounded-lg border border-[var(--line)] p-3">
@@ -205,7 +205,7 @@ function ProjectCard({ project }: { project: PortfolioProject }) {
           href={project.link}
           target={external ? "_blank" : undefined}
           rel={external ? "noopener noreferrer" : undefined}
-          className="mt-auto inline-flex items-center gap-1 pt-4 text-sm font-semibold text-cream hover:text-[#d86555]"
+          className="mt-auto inline-flex items-center gap-1 pt-4 text-sm font-semibold text-cream hover:text-[#e6a23c]"
         >
           View Project
           <span aria-hidden>→</span>

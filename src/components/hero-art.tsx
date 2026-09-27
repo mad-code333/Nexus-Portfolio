@@ -9,15 +9,15 @@ export function HeroArt() {
     >
       <defs>
         <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
-          <stop offset="0" stopColor="#140f14" />
-          <stop offset="0.42" stopColor="#3a2426" />
-          <stop offset="0.7" stopColor="#2a1a20" />
-          <stop offset="1" stopColor="#120e12" />
+          <stop offset="0" stopColor="#050505" />
+          <stop offset="0.42" stopColor="#2a1206" />
+          <stop offset="0.7" stopColor="#140a06" />
+          <stop offset="1" stopColor="#050505" />
         </linearGradient>
-        <radialGradient id="templeGlow" cx="46%" cy="48%" r="28%">
-          <stop offset="0" stopColor="#f0b06a" stopOpacity="0.85" />
-          <stop offset="0.45" stopColor="#c46a45" stopOpacity="0.35" />
-          <stop offset="1" stopColor="#c46a45" stopOpacity="0" />
+        <radialGradient id="templeGlow" cx="72%" cy="42%" r="34%">
+          <stop offset="0" stopColor="#ffb03a" stopOpacity="0.9" />
+          <stop offset="0.38" stopColor="#e25a12" stopOpacity="0.42" />
+          <stop offset="1" stopColor="#e25a12" stopOpacity="0" />
         </radialGradient>
         <linearGradient id="hull" x1="0" y1="0" x2="1" y2="1">
           <stop offset="0" stopColor="#f7e2cf" />

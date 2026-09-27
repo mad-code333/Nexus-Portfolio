@@ -34,7 +34,7 @@ export default async function ProjectPage({ params }: Props) {
       </div>
       <div className="mt-8 grid gap-4 md:grid-cols-2">
         <div className="rounded-xl border border-[var(--line)] p-5">
-          <p className="text-[11px] font-semibold tracking-[0.14em] text-[#d86555]">KEY FEATURES</p>
+          <p className="text-[11px] font-semibold tracking-[0.14em] text-[#e6a23c]">KEY FEATURES</p>
           <p className="mt-2 text-sm leading-relaxed text-muted">{project.features}</p>
         </div>
         <div className="rounded-xl border border-[var(--line)] p-5">
@@ -55,7 +55,7 @@ export default async function ProjectPage({ params }: Props) {
             href={project.link}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex h-11 items-center rounded-full bg-[#d86555] px-5 text-sm font-semibold text-white"
+            className="inline-flex h-11 items-center rounded-full bg-[#e6a23c] px-5 text-sm font-semibold text-white"
           >
             View Project
           </a>

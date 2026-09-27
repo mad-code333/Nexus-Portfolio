@@ -73,7 +73,7 @@ export function SkillsExperience() {
       <section className="overflow-hidden py-8 sm:py-12 md:py-16">
         <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
           <h1 className="mb-6 text-2xl font-semibold tracking-tight text-cream sm:mb-8 sm:text-3xl md:text-4xl">
-            Skills <span className="mx-2 text-[#d86555]">&</span> Technologies
+            Skills <span className="mx-2 text-[#e6a23c]">&</span> Technologies
           </h1>
           <div className="flex w-full flex-col items-start justify-between gap-6 sm:gap-8 lg:flex-row lg:items-center">
             <p className="w-full text-base leading-relaxed text-cream/70 sm:text-lg lg:w-1/2">
@@ -138,7 +138,7 @@ export function SkillsExperience() {
                     <h2 className="truncate text-sm font-medium text-cream">{skill.name}</h2>
                     <div className="mt-2 flex items-center gap-2">
                       <div className="h-1.5 flex-1 overflow-hidden rounded-full bg-black/30">
-                        <div className="h-full rounded-full bg-gradient-to-r from-[#d86555] to-[#f0a090]" style={{ width: `${skill.level}%` }} />
+                        <div className="h-full rounded-full bg-gradient-to-r from-[#e6a23c] to-[#f6d27a]" style={{ width: `${skill.level}%` }} />
                       </div>
                       <span className="shrink-0 text-xs text-muted">{skill.level}%</span>
                     </div>
@@ -176,20 +176,20 @@ export function SkillsExperience() {
               Continuous Growth
             </p>
             <h2 className="mt-4 text-2xl font-semibold text-cream sm:text-3xl lg:text-4xl">
-              Always <span className="text-[#d86555]">Learning</span>
+              Always <span className="text-[#e6a23c]">Learning</span>
             </h2>
             <p className="mt-4 max-w-xl text-sm leading-relaxed text-muted sm:text-base">
               Technology evolves rapidly, and so do I. I&apos;m constantly exploring new frameworks, tools, and methodologies to stay at the cutting edge of software development.
             </p>
             <ul className="mt-6 space-y-3 text-sm text-cream/75 sm:text-base">
-              <li className="flex items-center gap-3"><span className="h-2 w-2 rounded-full bg-[#d86555]" />Exploring Rust for system programming</li>
+              <li className="flex items-center gap-3"><span className="h-2 w-2 rounded-full bg-[#e6a23c]" />Exploring Rust for system programming</li>
               <li className="flex items-center gap-3"><span className="h-2 w-2 rounded-full bg-[#3ad1b0]" />Deep diving into AI/ML architectures</li>
               <li className="flex items-center gap-3"><span className="h-2 w-2 rounded-full bg-[#f4e7d4]" />Building with latest Web3 protocols</li>
               <li className="flex items-center gap-3"><span className="h-2 w-2 rounded-full bg-[#c084fc]" />Experimenting with edge computing</li>
             </ul>
           </div>
           <div className="grid grid-cols-2 gap-3 sm:gap-4">
-            <Stat value="50+" label="Technologies" className="text-[#d86555]" />
+            <Stat value="50+" label="Technologies" className="text-[#e6a23c]" />
             <Stat value="7+" label="Years Experience" className="text-[#3ad1b0]" />
             <Stat value="61+" label="Projects" className="text-[#f4e7d4]" />
             <Stat value="∞" label="Curiosity" className="text-[#c084fc]" />
@@ -197,22 +197,22 @@ export function SkillsExperience() {
         </div>
       </section>
 
-      <section className="bg-gradient-to-b from-[var(--page)] via-[#1a1618] to-[var(--page)] px-4 py-12 text-center sm:px-6 sm:py-16 lg:py-24">
+      <section className="bg-gradient-to-b from-[var(--page)] via-[#0a0a0a] to-[var(--page)] px-4 py-12 text-center sm:px-6 sm:py-16 lg:py-24">
         <div className="mx-auto max-w-4xl">
         <h2 className="text-2xl font-semibold text-cream sm:text-3xl lg:text-4xl">
-          Ready to Build Something <span className="text-[#d86555]">Amazing</span>?
+          Ready to Build Something <span className="text-[#e6a23c]">Amazing</span>?
         </h2>
         <p className="mx-auto mt-4 mb-6 max-w-2xl text-base text-cream/70 sm:mb-8 sm:text-lg">
           Let&apos;s combine these skills to create innovative solutions that drive your business forward.
         </p>
         <div className="flex flex-col items-center justify-center gap-3 sm:flex-row sm:gap-4">
-          <Link href="/contact" className="inline-flex items-center justify-center gap-2 rounded-full bg-gradient-to-r from-[#d86555] to-[#f0a090] px-6 py-3 text-sm font-semibold text-[#3d2422] transition hover:scale-105 sm:px-8 sm:py-4 sm:text-base">
+          <Link href="/contact" className="inline-flex items-center justify-center gap-2 rounded-full bg-gradient-to-r from-[#e6a23c] to-[#f6d27a] px-6 py-3 text-sm font-semibold text-[#3d2422] transition hover:scale-105 sm:px-8 sm:py-4 sm:text-base">
             Start a Project
             <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden>
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
           </Link>
-          <Link href="/projects" className="inline-flex items-center justify-center gap-2 rounded-full border border-cream/20 bg-[var(--card)] px-6 py-3 text-sm font-semibold text-cream transition hover:border-[#d86555]/50 sm:px-8 sm:py-4 sm:text-base">
+          <Link href="/projects" className="inline-flex items-center justify-center gap-2 rounded-full border border-cream/20 bg-[var(--card)] px-6 py-3 text-sm font-semibold text-cream transition hover:border-[#e6a23c]/50 sm:px-8 sm:py-4 sm:text-base">
             View Projects
             <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden>
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
