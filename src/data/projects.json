@@ -43,7 +43,7 @@
       "category": "web",
       "title": "BloxLucky",
       "description": "Best Online Roblox, Rust casino, and more!",
-      "image": "bloxlucky.png",
+      "image": "shots/web-0.png",
       "technologies": [
         "Next",
         "React",
@@ -62,7 +62,7 @@
       "category": "web",
       "title": "Who is Ebert?",
       "description": "Dive into Ebert tokens with this introductory platform.",
-      "image": "ebert.png",
+      "image": "shots/web-1.png",
       "technologies": [
         "Swiper",
         "HTML5",
@@ -80,7 +80,7 @@
       "category": "web",
       "title": "Journey to the West 2 Classic Edition",
       "description": "Journey to the West 2 Classic Edition",
-      "image": "xy12.png",
+      "image": "shots/web-2.png",
       "technologies": [
         "JavaScript",
         "HTML5",
@@ -95,7 +95,7 @@
       "category": "web",
       "title": "VPS GPU Cloud Ecosystem",
       "description": "Innovative and secure decentralized cloud solutions.",
-      "image": "vps-ai.png",
+      "image": "shots/web-3.png",
       "technologies": [
         "Next",
         "React",
@@ -112,7 +112,7 @@
       "category": "web",
       "title": "AACE AI",
       "description": "Meet your Web3 crypto AI companion powered by $AACE.",
-      "image": "aace.png",
+      "image": "shots/web-4.png",
       "technologies": [
         "React",
         "Framer",
@@ -130,7 +130,7 @@
       "category": "web",
       "title": "Step AI",
       "description": "Join Step AI and earn rewards for staying healthy.",
-      "image": "step-ai.png",
+      "image": "shots/web-5.png",
       "technologies": [
         "React",
         "Framer",
@@ -148,7 +148,7 @@
       "category": "web",
       "title": "Tokyo College of Music High School",
       "description": "Official site of Tokyo College of Music High School.",
-      "image": "koko.png",
+      "image": "shots/web-6.png",
       "technologies": [
         "Vue",
         "Nuxt",
@@ -167,7 +167,7 @@
       "category": "web",
       "title": "Sphynx Marketplace",
       "description": "Explore the Sphynx Marketplace for unique digital assets.",
-      "image": "sphynxmarketplace.png",
+      "image": "shots/web-7.png",
       "technologies": [
         "Next",
         "React",
@@ -188,7 +188,7 @@
       "category": "web",
       "title": "Manekineko",
       "description": "Discover Manekineko tokens with this engaging site.",
-      "image": "manekineko.png",
+      "image": "shots/web-8.png",
       "technologies": [
         "React",
         "JavaScript",
@@ -207,7 +207,7 @@
       "category": "web",
       "title": "Aeron Chair",
       "description": "Aeron: The iconic work chair, now with ocean-bound plastic.",
-      "image": "hermanmiller.png",
+      "image": "shots/web-9.png",
       "technologies": [
         "Angular",
         "JavaScript",
@@ -225,7 +225,7 @@
       "category": "web",
       "title": "Schlep",
       "description": "Efficient local logistics and delivery services.",
-      "image": "schlep.png",
+      "image": "shots/web-10.png",
       "technologies": [
         "Angular",
         "JavaScript",
@@ -243,7 +243,7 @@
       "category": "web",
       "title": "Mew",
       "description": "Discover Mew tokens with this engaging platform.",
-      "image": "mew.png",
+      "image": "shots/web-11.png",
       "technologies": [
         "Vue",
         "Nuxt",
@@ -262,7 +262,7 @@
       "category": "web",
       "title": "Blue heart of Europe",
       "description": "Promoting environmental awareness across Europe.",
-      "image": "blueheart.png",
+      "image": "shots/web-12.png",
       "technologies": [
         "Angular",
         "JavaScript",
@@ -280,7 +280,7 @@
       "category": "web",
       "title": "Big Blue Plumbing",
       "description": "SEQ's leading plumbing service provider.",
-      "image": "bigblueplumbing.png",
+      "image": "shots/web-13.png",
       "technologies": [
         "PHP",
         "JavaScript",
@@ -298,7 +298,7 @@
       "category": "web",
       "title": "Vymex",
       "description": "Comprehensive results management ecosystem.",
-      "image": "vymex.png",
+      "image": "shots/web-14.png",
       "technologies": [
         "PHP",
         "JavaScript",
@@ -317,7 +317,7 @@
       "category": "web",
       "title": "vmoto",
       "description": "Your go-to destination for electric scooters and bikes.",
-      "image": "vmoto.png",
+      "image": "shots/web-15.png",
       "technologies": [
         "PHP",
         "JavaScript",
@@ -336,7 +336,7 @@
       "category": "web",
       "title": "Shiseido",
       "description": "Showcasing beauty products with Swiper and jQuery.",
-      "image": "shiseido.png",
+      "image": "shots/web-16.png",
       "technologies": [
         "React",
         "JavaScript",
@@ -354,7 +354,7 @@
       "category": "web",
       "title": "Garou",
       "description": "Explore the creative portfolio of Garou Creators.",
-      "image": "garou.jpg",
+      "image": "shots/web-17.png",
       "technologies": [
         "Next",
         "React",
@@ -372,7 +372,7 @@
       "category": "web",
       "title": "Pavia",
       "description": "Join Pavia, a community-driven virtual world.",
-      "image": "pavia.png",
+      "image": "shots/web-18.png",
       "technologies": [
         "React",
         "JavaScript",
@@ -389,7 +389,7 @@
       "category": "web",
       "title": "Glenveagh",
       "description": "Discover quality new homes with Glenveagh.",
-      "image": "glenveagh.jpg",
+      "image": "shots/web-19.png",
       "technologies": [
         "Next",
         "React",
@@ -406,7 +406,7 @@
       "category": "web",
       "title": "FortSpot",
       "description": "Discover amazing spots with FortSpots.",
-      "image": "fortspot.png",
+      "image": "shots/web-20.png",
       "technologies": [
         "Next",
         "React",
@@ -423,7 +423,7 @@
       "category": "web",
       "title": "LooksMax",
       "description": "Upload your photo for analysis and personalized advice.",
-      "image": "looksmax.png",
+      "image": "shots/web-21.png",
       "technologies": [
         "Next",
         "React",
@@ -473,7 +473,7 @@
       "category": "mobile",
       "title": "Aerial IOT",
       "description": "Manage cellular tower cooling systems.",
-      "image": "aerial.png",
+      "image": "shots/mobile-2.png",
       "technologies": [
         "ReactNative",
         "Expo",
@@ -489,7 +489,7 @@
       "category": "mobile",
       "title": "Flood",
       "description": "Monitor torrent clients easily.",
-      "image": "flood.png",
+      "image": "shots/mobile-3.png",
       "technologies": [
         "ReactNative",
         "Expo",
@@ -505,7 +505,7 @@
       "category": "mobile",
       "title": "Bully",
       "description": "Explore the metaverse with your avatar.",
-      "image": "bully.png",
+      "image": "shots/mobile-4.png",
       "technologies": [
         "Kotlin",
         "Firebase",
@@ -520,7 +520,7 @@
       "category": "software",
       "title": "Inventory Management System",
       "description": "Track and manage inventory in real-time.",
-      "image": "inventory.png",
+      "image": "shots/software-0.png",
       "technologies": [
         "Python",
         "Django",
@@ -535,7 +535,7 @@
       "category": "software",
       "title": "Customer Relationship Management (CRM)",
       "description": "Manage customer interactions and data.",
-      "image": "crm.png",
+      "image": "shots/software-1.png",
       "technologies": [
         "Java",
         "SpringBoot",
@@ -578,7 +578,7 @@
       "category": "bot",
       "title": "Customer Support Chatbot",
       "description": "A chatbot for handling customer inquiries and support tickets.",
-      "image": "chatbot-customer-service.png",
+      "image": "shots/bot-0.png",
       "technologies": [
         "Python",
         "Rasa",
@@ -720,7 +720,7 @@
       "category": "blockchain",
       "title": "Manekineko",
       "description": "Discover Manekineko tokens with this engaging site.",
-      "image": "manekineko.png",
+      "image": "shots/blockchain-1.png",
       "technologies": [
         "React",
         "JavaScript",
@@ -754,7 +754,7 @@
       "category": "blockchain",
       "title": "Who is Ebert?",
       "description": "Dive into Ebert tokens with this introductory platform.",
-      "image": "ebert.png",
+      "image": "shots/blockchain-3.png",
       "technologies": [
         "Swiper",
         "HTML5",
@@ -772,7 +772,7 @@
       "category": "blockchain",
       "title": "Solana NFT Marketplace",
       "description": "A marketplace for buying and selling NFTs on the Solana blockchain.",
-      "image": "solana-nft-marketplace.jpg",
+      "image": "shots/blockchain-4.png",
       "technologies": [
         "Solana",
         "Rust",
@@ -788,7 +788,7 @@
       "category": "blockchain",
       "title": "AACE AI",
       "description": "Meet your Web3 crypto AI companion powered by $AACE.",
-      "image": "aace.png",
+      "image": "shots/blockchain-5.png",
       "technologies": [
         "React",
         "Framer",
@@ -806,7 +806,7 @@
       "category": "blockchain",
       "title": "Sphynx Marketplace",
       "description": "Explore the Sphynx Marketplace for unique digital assets.",
-      "image": "sphynxmarketplace.png",
+      "image": "shots/blockchain-6.png",
       "technologies": [
         "Next",
         "React",
@@ -827,7 +827,7 @@
       "category": "blockchain",
       "title": "Mew",
       "description": "Discover Mew tokens with this engaging platform.",
-      "image": "mew.png",
+      "image": "shots/blockchain-7.png",
       "technologies": [
         "Vue",
         "Nuxt",
@@ -847,7 +847,7 @@
       "category": "blockchain",
       "title": "Speed Fun",
       "description": "You can add your own symbol to the end of the token address.",
-      "image": "speedfun.png",
+      "image": "shots/blockchain-8.png",
       "technologies": [
         "Jupiter",
         "Web3",
@@ -866,7 +866,7 @@
       "category": "blockchain",
       "title": "Faucet Solana",
       "description": "Solana Faucet for testing purposes.",
-      "image": "faucet.png",
+      "image": "shots/blockchain-9.png",
       "technologies": [
         "Solana",
         "Web3",
@@ -883,7 +883,7 @@
       "category": "blockchain",
       "title": "Paripesa",
       "description": "Paripesa is a platform for trading and investing in cryptocurrencies.",
-      "image": "crypto-betting.png",
+      "image": "shots/blockchain-10.png",
       "technologies": [
         "Solana",
         "Ethereum",
